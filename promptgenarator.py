@@ -79,12 +79,9 @@ while homescreen == True:
                 file_contents = file_contents.replace(word, replacement)
             print(file_contents)
             aimpromptopen.close()
-            def menuchoice():
-                print(mainmenumess)
-                homecreeninput = input("  Y/N:")
+                homecreeninput = input("Y/N:")
                 if homecreeninput == "y":
                     homescreen = True
-            menuchoice()
             
     elif userinput == "3":
         homescreen = False
@@ -107,6 +104,8 @@ while homescreen == True:
                 file_contents = file_contents.replace(word, replacement)
             print(file_contents)
             AntiGPTprompt.close()
-            menuchoice()
+            homescreeninput == input("Y/N"):
+            if homecreen == "y"
+                homescreen = True
 
             
